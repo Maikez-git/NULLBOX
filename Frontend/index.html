@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Security Labs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- LAB TABS -->
+   <!-- LEFT SIDE -->
+<div class="left-panel login-theme" id="leftPanel">
+
+   <div class="lab-tabs">
+    <div class="tab login-tab active" onclick="loadLoginLab()">
+        <span class="icon">🔐</span>
+        <span class="label">Login</span>
+    </div>
+    <div class="tab comment-tab" onclick="loadCommentLab()">
+        <span class="icon">💬</span>
+        <span class="label">Comment</span>
+    </div>
+</div>
+
+
+    <div class="lab-area" id="labArea"></div>
+
+</div>
+
+
+    <!-- RIGHT: EXPLANATION -->
+    <div class="explanation-area">
+        <h2>Explanation</h2>
+        <p id="explanationText">
+            Select a lab and try payloads.
+        </p>
+    </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
